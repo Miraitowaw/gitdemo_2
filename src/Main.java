@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String line = scanner.nextLine();
-        Map<Character, Integer> map = new LinkedHashMap<Character, Integer>();
+        Map<Character, Integer> map = new LinkedHashMap<>();
 
         //write your code here......
         line = line.replaceAll("[^a-zA-Z]", "");
@@ -24,6 +24,5 @@ public class Main {
         }
         System.out.println("修改---------");
         //第二次修改，提交并推送到远程GitHub仓库上
-        //第三次修改，提交并推送到远程GitHub仓库上
     }
 }
